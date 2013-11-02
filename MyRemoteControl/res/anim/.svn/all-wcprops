@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sed-tb/!svn/ver/2773/RemoteControl/res/anim
+END
+push_left_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sed-tb/!svn/ver/2286/RemoteControl/res/anim/push_left_out.xml
+END
+push_right_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sed-tb/!svn/ver/2286/RemoteControl/res/anim/push_right_in.xml
+END
+push_right_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sed-tb/!svn/ver/2286/RemoteControl/res/anim/push_right_out.xml
+END
+out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sed-tb/!svn/ver/2773/RemoteControl/res/anim/out.xml
+END
+del_done.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sed-tb/!svn/ver/2773/RemoteControl/res/anim/del_done.xml
+END
+del_down.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sed-tb/!svn/ver/2773/RemoteControl/res/anim/del_down.xml
+END
+push_left_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sed-tb/!svn/ver/2286/RemoteControl/res/anim/push_left_in.xml
+END

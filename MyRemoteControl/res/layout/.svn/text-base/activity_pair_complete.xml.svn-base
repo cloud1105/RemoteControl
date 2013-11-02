@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PairCompleteActivity" >
+  
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+    </RelativeLayout>
+    
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:gravity="center"
+        android:text="@string/pair_complete"
+        android:textSize="20sp" />
+    
+    <Button android:id="@+id/btn_add_other_room"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="280dp"
+            android:text="@string/add_another_room"/>
+    
+     <Button android:id="@+id/btn_complete"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:text="@string/pair_complete"/>
+
+</LinearLayout>

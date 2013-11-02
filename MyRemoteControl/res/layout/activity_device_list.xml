@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_search_ir_title"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_weight="0.90"
+        android:gravity="center"
+        android:text="@string/choose_ir"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/bt_list"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:cacheColorHint="#00000000" 
+        android:descendantFocusability="beforeDescendants"
+        android:gravity="center" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/btn_re_start_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_again" />
+        
+        <Button android:id="@+id/btn_search_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:visibility="gone"/>
+        <!--  
+        <Button
+            android:id="@+id/btn_choose_ir"
+            android:layout_width="117dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/next" />
+            -->
+    </LinearLayout>
+
+</LinearLayout>

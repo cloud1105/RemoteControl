@@ -1,0 +1,16 @@
+package com.foxconn.remote.control.util;
+
+import com.foxconn.remote.control.R;
+
+/**
+ * @author KrisLight
+ *
+ */
+public class AppHelper {
+	public final static int SHERLOCK_THEME = R.style.Theme_Sherlock_Light_DarkActionBar;
+	// 轉發器圖標預定可選圖片
+	public final static Integer[] ICON_SET = { R.drawable.ic_bedroom,
+			R.drawable.ic_bookroom, R.drawable.ic_livingroom,
+			R.drawable.ic_meetingroom, R.drawable.ic_offic,
+			R.drawable.ic_washroom };
+}

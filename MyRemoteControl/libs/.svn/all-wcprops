@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/sed-tb/!svn/ver/3090/RemoteControl/libs
+END
+core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sed-tb/!svn/ver/3187/RemoteControl/libs/core.jar
+END
+bugsense-3.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sed-tb/!svn/ver/3090/RemoteControl/libs/bugsense-3.5.jar
+END
+android-support-v4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sed-tb/!svn/ver/2927/RemoteControl/libs/android-support-v4.jar
+END
+greendao-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sed-tb/!svn/ver/2773/RemoteControl/libs/greendao-1.3.1.jar
+END

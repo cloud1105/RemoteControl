@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- 需自定义箭头Style -->
+<view
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    class="com.foxconn.remote.control.widget.CustomPagerIndicator$TabView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/CustomPageIndicator"
+    android:orientation="vertical" >
+            
+   <ImageView android:id="@+id/iv_room_icon"
+               android:layout_width="60dp"
+               android:layout_height="60dp"/>
+   
+    <TextView
+        android:id="@+id/tv_room_name"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="客廳" />
+   
+
+</view>

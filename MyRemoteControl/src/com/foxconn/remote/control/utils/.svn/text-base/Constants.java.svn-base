@@ -1,0 +1,8 @@
+package com.foxconn.remote.control.utils;
+
+public interface Constants {
+	/** DB name */
+	public static final String DB_NAME = "PSMD_T.db";
+	public static final int SCHEMA_VERSION = 1;
+	public static final String BUG_SENSE_API_KEY = "d2420a49";
+}

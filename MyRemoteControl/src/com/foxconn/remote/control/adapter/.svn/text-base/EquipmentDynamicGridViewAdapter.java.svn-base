@@ -1,0 +1,170 @@
+package com.foxconn.remote.control.adapter;
+
+import java.util.List;
+import org.askerov.dynamicgid.BaseDynamicGridAdapter;
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+import com.foxconn.remote.control.R;
+import com.foxconn.remote.control.model.EquipmentItem;
+
+/**
+ * GridView適配器
+ * 
+ * @author KrisLight
+ * 
+ */
+public class EquipmentDynamicAdapter extends BaseDynamicGridAdapter implements
+		EditModeItemProvider {
+	// 限制GridView的格子數
+	public static final int MAX_NUM = 12;
+	// 數據源List
+	private List list;
+	private boolean isEditMode = false;
+	private boolean isPlusView = true;
+	private boolean isLastItem = false;
+
+	public List getList() {
+		return list;
+	}
+
+	@Override
+	public boolean isEditMode() {
+		return isEditMode;
+	}
+
+	@Override
+	public void setEditMode(boolean editMode) {
+		this.isEditMode = editMode;
+	}
+
+	public boolean isPlusView() {
+		return isPlusView;
+	}
+
+	public boolean isLastItem() {
+		return isLastItem;
+	}
+
+	public void setLastItemFlag(boolean isLast) {
+		this.isLastItem = isLast;
+	}
+
+	/**
+	 * Adapter中的List變更一定要調用此方法
+	 */
+	public void notifyListDataSetChange() {
+		set(list);
+		notifyDataSetChanged();
+	}
+
+	public EquipmentDynamicAdapter(Context context, List<?> items,
+			int columnCount) {
+		super(context, items, columnCount);
+		this.list = items;
+	}
+
+	public void startEditMode() {
+		setEditMode(true);
+		notifyDataSetChanged();
+	}
+
+	public void stopEditMode() {
+		setEditMode(false);
+		notifyDataSetChanged();
+	}
+
+	@Override
+	public int getCount() {
+		/**
+		 * 1.编辑模式下最后一个View为加号时隐藏最后的加号 2.最后一个View填满了且最后一个显示的View不为加号时隐藏最后的加号
+		 * 3.其他情况显示最后的加号
+		 */
+		if ((isEditMode && isPlusView) || isLastItem) {
+			return getItems().size() - 1;
+		}
+		return getItems().size();
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		CheeseViewHolder holder;
+		if (convertView == null) {
+			convertView = LayoutInflater.from(getContext()).inflate(
+					R.layout.item_grid, null);
+			holder = new CheeseViewHolder(convertView);
+			convertView.setTag(holder);
+		} else {
+			holder = (CheeseViewHolder) convertView.getTag();
+		}
+		// 绘制TextView和ImageView
+		final EquipmentItem selItem = (EquipmentItem) getItem(position);
+		if ("none".equals(selItem.getTitle())) {
+			// 加號
+			if (!isEditMode) {
+				holder.build("+", R.drawable.ic_launcher);
+			}
+			// 加號位置不超出最大範圍
+			if (position != MAX_NUM) {
+				isPlusView = true;
+			}
+		} else {
+			holder.build(selItem.getTitle(), selItem.getResId());
+			/**
+			 * 因為第一次調用getview的調用次數不確定,系統會緩存2個item
+			 * 實際第一次繪製介面最後一個item不是加號而是第一個item放在最後緩存加載了
+			 * 所以這裡直接判斷最後一個View不是加號的時候才設置isPlusView為false
+			 */
+			if (position == MAX_NUM - 1) {
+				isPlusView = false;
+			}
+		}
+		holder.removeImage.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				list.remove(selItem);
+				if (isLastItem) {
+					setLastItemFlag(false);
+				}
+				if (!isPlusView) {
+					isPlusView = true;
+				}
+				notifyListDataSetChange();
+			}
+		});
+		return convertView;
+	}
+
+	/**
+	 * Just a cheese. i'm hungry.
+	 * 
+	 * @author KrisLight
+	 * 
+	 */
+	private class CheeseViewHolder {
+		private TextView titleText;
+		private ImageView image;
+		private ImageView removeImage;
+
+		private CheeseViewHolder(View view) {
+			titleText = (TextView) view.findViewById(R.id.item_title);
+			image = (ImageView) view.findViewById(R.id.item_img);
+			removeImage = (ImageView) view.findViewById(R.id.item_remove);
+		}
+
+		void build(String title, int resId) {
+			titleText.setText(title);
+			image.setImageResource(resId);
+			if (isEditMode) {
+				removeImage.setVisibility(View.VISIBLE);
+				image.setFocusable(false);
+			} else {
+				removeImage.setVisibility(View.INVISIBLE);
+			}
+		}
+	}
+}

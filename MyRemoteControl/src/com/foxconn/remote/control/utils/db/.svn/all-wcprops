@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sed-tb/!svn/ver/3109/RemoteControl/src/com/foxconn/remote/control/utils/db
+END
+RoomDbAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sed-tb/!svn/ver/3130/RemoteControl/src/com/foxconn/remote/control/utils/db/RoomDbAdapter.java
+END
+BaseTypeDbAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sed-tb/!svn/ver/3130/RemoteControl/src/com/foxconn/remote/control/utils/db/BaseTypeDbAdapter.java
+END
+DbDefaultValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sed-tb/!svn/ver/3130/RemoteControl/src/com/foxconn/remote/control/utils/db/DbDefaultValue.java
+END
+MachineDbAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sed-tb/!svn/ver/3155/RemoteControl/src/com/foxconn/remote/control/utils/db/MachineDbAdapter.java
+END

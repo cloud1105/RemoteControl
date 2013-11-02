@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Remote Control</string>
+    <string name="contentDescription">Content Description</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="deleting">delete now,please wait</string>
+    <string name="next">Next</string>
+    <string name="verify">Verify</string>
+    <string name="login_info">Login Info Setting</string>
+    <string name="start_search">Searching&#8230;</string>
+    <string name="pairing">pairing</string>
+    <string name="name_not_empty">name can\'t be empty</string>
+    <string name="key_not_empty">key can\'t be empty</string>
+    <!-- room -->
+    <string name="room">Room List</string>
+    <string name="add_room">add a room</string>
+    <string name="add_another_room">add another rooms</string>
+    <string name="input_room_name">please input the room\'s name</string>
+    <string name="room_name">the room name</string>
+    <string name="input_img">please choose a icon.</string>
+    <string name="add_complete">adding room complete!</string>
+    <string name="no_sd_card">no sd card found</string>
+    <!-- IR -->
+    <string name="choose_ir">please choose the ir</string>
+    <string name="search_ir">searching ir&#8230;</string>
+    <string name="choose_ir_add">please choose a ir to add</string>
+    <string name="choose_ir_edit">please choose a ir to edit</string>
+    <string name="choose_ir_delete">please choose a ir to delete</string>
+    <string name="leave_edit_mode">leave the edit mode and not save,are you sure?</string>
+    <string name="continue_edit">not leave</string>
+    <string name="leave">leave</string>
+    <string name="confirm_to_delete">Confirm to delete</string>
+    <!--  Bluetooth & Wifi  -->
+    <string name="not_support_bt">This device is not support bluetooth</string>
+    <string name="open_bt">Open Bluetooth</string>
+    <string name="bt_not_open">Bluetooth is not open,are you sure open it?</string>
+    <string name="open_bt_failed">open bluetooth failed</string>
+    <string name="not_connect">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="scanning">scanning for devices&#8230;</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="search_again">Search again</string>
+    <string name="enter_bt_name">please enter the names</string>
+    <string name="input_ir_key">please enter the ir\'s key</string>
+    <string name="connecting">Connecting&#8230;</string>
+    <string name="connected">Connected</string>
+    <string name="pair_complete">Pair Complete</string>
+    <string name="room_tab">IR</string>
+    <string name="short_tab">ShortCut</string>
+    <string name="device_name">Device Name</string>
+    <string name="is_pair">Pair</string>
+    <string name="mac_address">Mac</string>
+    <string name="address_str">Address</string>
+    <string name="connect_success">connect success</string>
+    <string name="connect_failed">connect failed,please check if the key is right.</string>
+    <string name="write_info">write</string>
+    <string name="wait">please wait</string>
+    <string name="add_ir">Add IR</string>
+    <string name="edit_ir">Edit IR</string>
+    <string name="delete_ir">Delete IR</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="introduce">Introduce</string>
+    <string name="band_suppport">Band Support</string>
+    <string name="connect_ir_fail">connect failed\n please connect to it again </string>
+    <string name="wifi_disconnect">Wifi network has disconnected,please connect again</string>
+    <string name="wifi_connecting">Wifi connecting</string>
+    <!-- menu title -->
+    <string name="room">Room List</string>
+    <string name="short_cut">ShortCut</string>
+    <string name="short_cut_list">ShortCut List</string>
+</resources>

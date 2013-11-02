@@ -1,0 +1,93 @@
+package com.foxconn.remote.control.activity;
+
+import java.util.ArrayList;
+import java.util.List;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import com.foxconn.remote.control.R;
+import com.foxconn.remote.control.adapter.RoomListAdapter;
+import com.foxconn.remote.control.model.EquipmentItem;
+import com.foxconn.remote.control.model.RoomItem;
+import com.foxconn.remote.control.widget.CustomPagerIndicator;
+import com.foxconn.remote.control.widget.CustomViewPager;
+import com.foxconn.remote.control.widget.GridFragment;
+
+/**
+ *  App主頁面
+ * 
+ * @author KrisLight
+ */
+public class HomeActivity extends FragmentActivity {
+	// 存放房間的名字和圖標
+	public static ArrayList<RoomItem> roomList;
+	// 存放電器的名字和圖標
+	public static List<EquipmentItem> items;
+	private CustomViewPager mPager;
+	private FragmentStatePagerAdapter fragmentAdapter;
+	private CustomPagerIndicator indicator;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_home);
+		initRoomData();
+		findView();
+	}
+
+	/**
+	 * 模擬查詢房間名字和圖標
+	 */
+	private void initRoomData() {
+		roomList = new ArrayList<RoomItem>();
+		//模擬從數據庫查詢結果到List;
+		RoomItem item1 = new RoomItem("主臥1", "123121");
+		roomList.add(item1);
+	}
+
+	private void findView() {
+		fragmentAdapter = new RoomListAdapter(getSupportFragmentManager(),
+				roomList, this);
+		mPager = (CustomViewPager) findViewById(R.id.pager);
+		mPager.setAdapter(fragmentAdapter);
+		mPager.setPagingEnabled(false);
+		indicator = (CustomPagerIndicator) findViewById(R.id.indicator);
+		indicator.setViewPager(mPager);
+	}
+
+	/**
+	 * This the important bit to make sure the back button works when you're
+	 * nesting fragments. Very hacky, all it takes is some Google engineer to
+	 * change that ViewPager view tag to break this in a future Android update.
+	 * question:
+	 * http://stackoverflow.com/questions/7723964/replace-fragment-inside
+	 * -a-viewpager/13925130#13925130
+	 */
+	@Override
+	public void onBackPressed() {
+		System.out.println("onBackPressed invoke");
+		Fragment fragment = (Fragment) fragmentAdapter.instantiateItem(mPager,mPager.getCurrentItem());
+		if (fragment != null) // could be null if not instantiated yet
+		{
+			if (fragment.getView() != null) {
+				if (((GridFragment) fragment).onBackPress()) {
+					System.out.println("Activity Back");
+					super.onBackPressed();
+					finish();
+				}
+			}
+		} else {
+			super.onBackPressed();
+		}
+	}
+
+	public void startRoomEditMode() {
+		indicator.setEditMode(true);
+	}
+
+	public void stopRoomEditMode() {
+		indicator.setEditMode(false);
+	}
+
+}

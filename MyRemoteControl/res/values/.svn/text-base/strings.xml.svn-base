@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remote Control</string>
+    <string name="contentDescription">內容描述</string>
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="delete">刪除</string>
+    <string name="deleting">正在删除</string>
+    <string name="next">下一步</string>
+    <string name="verify">驗證</string>
+    <string name="login_info">帳號登入載入設定</string>
+    <string name="no_sd_card">未檢測到SD卡</string>
+    <string name="name_not_empty">名字不能為空</string>
+    <string name="key_not_empty">金鑰不能為空</string>
+    <!-- barcode -->
+    <string name="barcode_help">不想手动输入品牌和型号? \n 试试看扫描UPC CODE输入吧!</string>
+    <!-- room -->
+    <string name="room">房間清單</string>
+    <string name="add_room">新增房間</string>
+    <string name="add_another_room">新增別的房間</string>
+    <string name="input_room_name">請輸入房間名稱</string>
+    <string name="room_name">房間名稱</string>
+    <string name="input_img">請選擇代表圖示</string>
+    <string name="add_complete">新增房間完成,開始操作</string>
+    <!-- IR -->
+    <string name="choose_ir">請選擇對應的轉發器</string>
+    <string name="search_ir">搜索範圍內的轉發器</string>
+    <string name="choose_ir_add">選擇要新增的轉發器</string>
+    <string name="choose_ir_edit">選擇要編輯的轉發器</string>
+    <string name="choose_ir_delete">選擇要刪除的轉發器</string>
+    <string name="add_ir">新增轉發器</string>
+    <string name="edit_ir">編輯轉發器</string>
+    <string name="delete_ir">刪除轉發器</string>
+    <string name="save">備份設定</string>
+    <string name="load">載入備份設定</string>
+    <string name="introduce">操作說明</string>
+    <string name="band_suppport">廠牌支援</string>
+    <string name="connect_ir_fail">連結失敗\n請重新連結轉發器</string>
+    <string name="leave_edit_mode">是否離開編輯模式,修改將不會保存</string>
+    <string name="continue_edit">繼續編輯</string>
+    <string name="leave">離開</string>
+    <string name="confirm_to_delete">確認刪除</string>
+    <!-- Bluetooth & Wifi -->
+    <string name="not_support_bt">設備不支持藍牙功能</string>
+    <string name="open_bt">打開藍牙</string>
+    <string name="bt_not_open">藍牙未打開,是否打開？</string>
+    <string name="open_bt_failed">藍牙打開失敗</string>
+    <string name="scanning">搜索中</string>
+    <string name="button_scan">搜索設備</string>
+    <string name="start_search">搜索設備中&#8230;</string>
+    <string name="pairing">正在配對</string>
+    <string name="menu_settings">配置</string>
+    <string name="connect">点击连接</string>
+    <string name="disconnect">点击断开</string>
+    <string name="device_name">设备名</string>
+    <string name="is_pair">是否配对</string>
+    <string name="mac_address">MAC地址：</string>
+    <string name="address_str">地址</string>
+    <string name="none_found">沒有搜索到附件的設備</string>
+    <string name="search_again">重新搜索</string>
+    <string name="enter_bt_name">手動輸入名稱</string>
+    <string name="input_ir_key">請輸入轉發器金鑰</string>
+    <string name="not_connect">未連接</string>
+    <string name="connecting">正在連接&#8230;</string>
+    <string name="connected">已連接</string>
+    <string name="pair_complete">轉發器配對完成,開始操作</string>
+    <string name="connect_success">連接成功</string>
+    <string name="connect_failed">連接失敗,請檢查輸入金鑰是否正確</string>
+    <string name="write_info">寫信息</string>
+    <string name="wait">請等待</string>
+    <string name="wifi_disconnect">Wifi未打開,請重新連接</string>
+    <string name="wifi_connecting">WIFI連接中,請稍後</string>
+    <!-- menu title -->
+    <string name="short_cut">快捷</string>
+    <string name="short_cut_list">快捷清單</string>
+    <string name="activity_not_found">沒法執行下一步,請檢查手機上的應用是否安裝正確</string>
+    <!-- zxing STR -->
+    <string name="capture_tip">请将条码置于取景框内扫描</string>
+    
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu">
+        <item >Room List</item>
+        <item >ShortCut List</item>
+    </string-array>
+    
+    <string-array name="tabs">
+        <item >IR</item>
+        <item >Short Cut</item>
+    </string-array>
+</resources>

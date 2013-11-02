@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/camera
+END
+FlashlightManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/camera/FlashlightManager.java
+END
+CameraManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/camera/CameraManager.java
+END
+AutoFocusCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/camera/AutoFocusCallback.java
+END
+CameraConfigurationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/camera/CameraConfigurationManager.java
+END
+PlanarYUVLuminanceSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/camera/PlanarYUVLuminanceSource.java
+END
+PreviewCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/camera/PreviewCallback.java
+END

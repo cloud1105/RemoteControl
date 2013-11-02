@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sed-tb/!svn/ver/3110/RemoteControl/src/com/foxconn/remote/control/activity
+END
+RoomEditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sed-tb/!svn/ver/3132/RemoteControl/src/com/foxconn/remote/control/activity/RoomEditActivity.java
+END
+AddIrActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/activity/AddIrActivity.java
+END
+PairCompleteActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sed-tb/!svn/ver/2975/RemoteControl/src/com/foxconn/remote/control/activity/PairCompleteActivity.java
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sed-tb/!svn/ver/2975/RemoteControl/src/com/foxconn/remote/control/activity/MainActivity.java
+END
+AddRoomActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sed-tb/!svn/ver/3094/RemoteControl/src/com/foxconn/remote/control/activity/AddRoomActivity.java
+END
+BarCodeInActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/activity/BarCodeInActivity.java
+END
+HomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sed-tb/!svn/ver/3152/RemoteControl/src/com/foxconn/remote/control/activity/HomeActivity.java
+END
+ConnectTestActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sed-tb/!svn/ver/3040/RemoteControl/src/com/foxconn/remote/control/activity/ConnectTestActivity.java
+END
+SherlockNavigationActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/sed-tb/!svn/ver/3046/RemoteControl/src/com/foxconn/remote/control/activity/SherlockNavigationActivity.java
+END
+DeleteIrActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sed-tb/!svn/ver/3115/RemoteControl/src/com/foxconn/remote/control/activity/DeleteIrActivity.java
+END
+StartActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sed-tb/!svn/ver/3130/RemoteControl/src/com/foxconn/remote/control/activity/StartActivity.java
+END
+WifiActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sed-tb/!svn/ver/3106/RemoteControl/src/com/foxconn/remote/control/activity/WifiActivity.java
+END
+BlueToothActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sed-tb/!svn/ver/3109/RemoteControl/src/com/foxconn/remote/control/activity/BlueToothActivity.java
+END
+MachineTypeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sed-tb/!svn/ver/3130/RemoteControl/src/com/foxconn/remote/control/activity/MachineTypeActivity.java
+END
+NfcActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sed-tb/!svn/ver/2975/RemoteControl/src/com/foxconn/remote/control/activity/NfcActivity.java
+END
+ShortCutActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sed-tb/!svn/ver/3034/RemoteControl/src/com/foxconn/remote/control/activity/ShortCutActivity.java
+END
+MachineAddActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sed-tb/!svn/ver/3152/RemoteControl/src/com/foxconn/remote/control/activity/MachineAddActivity.java
+END
+MachineIconActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sed-tb/!svn/ver/3132/RemoteControl/src/com/foxconn/remote/control/activity/MachineIconActivity.java
+END
+BtConnectActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/activity/BtConnectActivity.java
+END
+EditIrActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sed-tb/!svn/ver/3090/RemoteControl/src/com/foxconn/remote/control/activity/EditIrActivity.java
+END

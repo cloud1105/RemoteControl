@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_wifi_search"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:text="從WIFI連線"
+        />
+    
+    <Button
+        android:id="@+id/btn_bluetooth_search"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+         android:layout_marginTop="50dp"
+        android:layout_above="@id/btn_wifi_search"
+        android:text="從藍牙連線"
+        />
+       
+    <!--  
+    <Button
+        android:id="@+id/btn_nfc_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NFC Search"
+        tools:ignore="HardcodedText" />
+        -->
+
+</RelativeLayout>

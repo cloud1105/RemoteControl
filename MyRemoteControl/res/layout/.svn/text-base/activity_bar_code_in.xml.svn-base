@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarCodeInActivity" >
+    
+    <FrameLayout android:id="@+id/layout_indroduce"
+                 android:layout_width="match_parent"
+                 android:layout_height="400dp"></FrameLayout>
+    
+    <Button android:id="@+id/btn_start_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/layout_indroduce"
+            android:text="我瞭解了,開始掃描"
+            android:gravity="center"
+            android:onClick="scan"
+            />
+</RelativeLayout>

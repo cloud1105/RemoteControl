@@ -1,0 +1,88 @@
+10
+
+dir
+3111
+http://10.134.130.163/svn/sed-tb/RemoteControl/res
+http://10.134.130.163/svn/sed-tb
+
+
+
+2013-10-25T10:18:09.383178Z
+3090
+W0401499
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4eb4d90d-6cd7-42ad-b4d9-8b6d7c3ffef1
+
+values-sw720dp-land
+dir
+
+drawable
+dir
+
+drawable-xxhdpi
+dir
+
+anim
+dir
+
+values-large
+dir
+
+raw
+dir
+
+drawable-xhdpi
+dir
+
+values-en
+dir
+
+values
+dir
+
+values-sw600dp
+dir
+
+drawable-hdpi
+dir
+
+values-v11
+dir
+
+menu
+dir
+
+values-v14
+dir
+
+drawable-ldpi
+dir
+
+values-za
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+
+values-zh
+dir
+
+color
+dir
+

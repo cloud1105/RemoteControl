@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu">
+        <item >房間列表</item>
+        <item >快捷列表</item>
+    </string-array>
+    <string-array name="tabs">
+        <item >轉發器</item>
+        <item >快捷</item>
+    </string-array>
+</resources>

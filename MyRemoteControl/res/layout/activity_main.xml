@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RoomActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="REMOTE CONTROL"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_search_ir"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/search_ir" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login_info"
+        android:textSize="15sp" />
+
+</RelativeLayout>

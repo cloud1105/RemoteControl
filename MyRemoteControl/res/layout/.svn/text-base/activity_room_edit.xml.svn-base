@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RoomEditActivity" >
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_room_name"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:gravity="center"
+            android:text="名稱"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_room_name"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_ir_key"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:gravity="center"
+            android:text="金鑰"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_ir_key"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:gravity="center"
+            android:text="圖示"
+            android:textSize="20sp" />
+
+        <GridView   
+            android:id="@+id/gridview_icon"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:numColumns="3"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <Button android:id="@+id/btn_confirm"
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip"
+                android:layout_marginLeft="25dip"
+                android:layout_marginRight="25dip"
+                android:text="確認"
+                 />
+    </LinearLayout>
+    
+</LinearLayout>

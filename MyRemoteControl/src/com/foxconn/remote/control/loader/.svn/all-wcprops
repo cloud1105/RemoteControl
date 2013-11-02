@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sed-tb/!svn/ver/3090/RemoteControl/src/com/foxconn/remote/control/loader
+END
+RoomListLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sed-tb/!svn/ver/3090/RemoteControl/src/com/foxconn/remote/control/loader/RoomListLoader.java
+END
+AbstractListLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sed-tb/!svn/ver/3090/RemoteControl/src/com/foxconn/remote/control/loader/AbstractListLoader.java
+END
+MachineListLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sed-tb/!svn/ver/3090/RemoteControl/src/com/foxconn/remote/control/loader/MachineListLoader.java
+END

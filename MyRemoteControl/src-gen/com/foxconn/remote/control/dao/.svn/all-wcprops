@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sed-tb/!svn/ver/3093/RemoteControl/src-gen/com/foxconn/remote/control/dao
+END
+DaoMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sed-tb/!svn/ver/3152/RemoteControl/src-gen/com/foxconn/remote/control/dao/DaoMaster.java
+END
+RoomDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sed-tb/!svn/ver/3090/RemoteControl/src-gen/com/foxconn/remote/control/dao/RoomDao.java
+END
+DaoSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sed-tb/!svn/ver/3130/RemoteControl/src-gen/com/foxconn/remote/control/dao/DaoSession.java
+END
+MachineDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sed-tb/!svn/ver/3152/RemoteControl/src-gen/com/foxconn/remote/control/dao/MachineDao.java
+END
+ManchineTypeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sed-tb/!svn/ver/3130/RemoteControl/src-gen/com/foxconn/remote/control/dao/ManchineTypeDao.java
+END

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/CustomPageIndicator"
+    android:gravity="center"
+    android:minHeight="96dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:padding="1dp"
+        android:singleLine="true"
+        android:text="+"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

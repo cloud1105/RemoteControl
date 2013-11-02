@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BtConnectActivity" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+    </RelativeLayout>
+    
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:gravity="center"
+        android:text="@string/input_ir_key"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_sel_device"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_gold_key"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:gravity="center"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textSize="20sp" 
+        />
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/verify" />
+
+</LinearLayout>

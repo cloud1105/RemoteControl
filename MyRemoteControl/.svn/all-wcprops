@@ -1,0 +1,45 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 21
+/svn/sed-tb/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/sed-tb/!svn/ver/3112/RemoteControl
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sed-tb/!svn/ver/3187/RemoteControl/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sed-tb/!svn/ver/3090/RemoteControl/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sed-tb/!svn/ver/2940/RemoteControl/.project
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sed-tb/!svn/ver/2041/RemoteControl/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sed-tb/!svn/ver/3187/RemoteControl/AndroidManifest.xml
+END
+ic_launcher-web.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sed-tb/!svn/ver/2041/RemoteControl/ic_launcher-web.png
+END

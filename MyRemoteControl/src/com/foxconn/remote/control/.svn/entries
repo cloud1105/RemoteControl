@@ -1,0 +1,90 @@
+10
+
+dir
+3111
+http://10.134.130.163/svn/sed-tb/RemoteControl/src/com/foxconn/remote/control
+http://10.134.130.163/svn/sed-tb
+
+
+
+2013-10-28T04:37:58.221732Z
+3110
+W0401499
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4eb4d90d-6cd7-42ad-b4d9-8b6d7c3ffef1
+
+
+
+
+
+
+
+
+()
+
+zxing
+dir
+
+adapter
+dir
+
+service
+dir
+
+utils
+dir
+
+broadcast
+dir
+
+widget
+dir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://10.134.130.163/svn/sed-tb/RemoteControl/src/com/foxconn/remote/control/ui
+2774
+
+fragment
+dir
+
+loader
+dir
+
+base
+dir
+
+activity
+dir
+
+drag
+dir
+

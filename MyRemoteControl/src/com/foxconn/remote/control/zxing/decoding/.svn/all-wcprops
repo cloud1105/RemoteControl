@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/decoding
+END
+DecodeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/decoding/DecodeHandler.java
+END
+InactivityTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/decoding/InactivityTimer.java
+END
+Intents.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/decoding/Intents.java
+END
+FinishListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/decoding/FinishListener.java
+END
+DecodeFormatManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/decoding/DecodeFormatManager.java
+END
+DecodeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/decoding/DecodeThread.java
+END
+CaptureActivityHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sed-tb/!svn/ver/3187/RemoteControl/src/com/foxconn/remote/control/zxing/decoding/CaptureActivityHandler.java
+END

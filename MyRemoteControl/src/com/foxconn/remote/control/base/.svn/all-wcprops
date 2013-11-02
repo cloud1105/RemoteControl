@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sed-tb/!svn/ver/3090/RemoteControl/src/com/foxconn/remote/control/base
+END
+BaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sed-tb/!svn/ver/3130/RemoteControl/src/com/foxconn/remote/control/base/BaseActivity.java
+END
+BaseApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sed-tb/!svn/ver/3152/RemoteControl/src/com/foxconn/remote/control/base/BaseApplication.java
+END
+CrashHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sed-tb/!svn/ver/2993/RemoteControl/src/com/foxconn/remote/control/base/CrashHandler.java
+END
+BaseFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sed-tb/!svn/ver/3117/RemoteControl/src/com/foxconn/remote/control/base/BaseFragment.java
+END

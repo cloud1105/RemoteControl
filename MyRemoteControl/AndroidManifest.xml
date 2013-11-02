@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.foxconn.remote.control"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:required="true" />
+    
+
+    <application
+        android:name="com.foxconn.remote.control.base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.foxconn.remote.control.activity.StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- search and connect -->
+        <activity android:name="com.foxconn.remote.control.activity.WifiActivity" >
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.BlueToothActivity" >
+        </activity>
+        <activity
+            android:name="com.foxconn.remote.control.activity.NfcActivity"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.MainActivity" >
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.AddRoomActivity" >
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.ConnectTestActivity" >
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.BtConnectActivity" >
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.PairCompleteActivity" >
+        </activity>
+        <!-- Main UI -->
+        <activity android:name="com.foxconn.remote.control.activity.RoomEditActivity" >
+        </activity>
+        <activity
+            android:name="com.foxconn.remote.control.activity.HomeActivity"
+            android:theme="@style/Theme.PageIndicatorDefaults" >
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.ShortCutActivity" >
+        </activity>
+        <activity
+            android:name="com.foxconn.remote.control.activity.AddIrActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.foxconn.remote.control.activity.EditIrActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.foxconn.remote.control.activity.DeleteIrActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.MachineAddActivity" >
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.BarCodeInActivity" >
+        </activity>
+        <activity
+            android:name="com.foxconn.remote.control.activity.MachineTypeActivity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity android:name="com.foxconn.remote.control.activity.MachineIconActivity"
+             android:theme="@android:style/Theme.Dialog">
+        </activity>
+        
+       <activity
+            android:name="com.foxconn.remote.control.zxing.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+       </activity>
+    </application>
+
+</manifest>

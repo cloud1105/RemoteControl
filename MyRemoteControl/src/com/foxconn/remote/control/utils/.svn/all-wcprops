@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sed-tb/!svn/ver/3109/RemoteControl/src/com/foxconn/remote/control/utils
+END
+Keyboard.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sed-tb/!svn/ver/3040/RemoteControl/src/com/foxconn/remote/control/utils/Keyboard.java
+END
+RequestCodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sed-tb/!svn/ver/3043/RemoteControl/src/com/foxconn/remote/control/utils/RequestCodes.java
+END
+IrUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sed-tb/!svn/ver/3043/RemoteControl/src/com/foxconn/remote/control/utils/IrUtil.java
+END
+SharedPreferencesUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sed-tb/!svn/ver/3040/RemoteControl/src/com/foxconn/remote/control/utils/SharedPreferencesUtils.java
+END
+ResultCodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sed-tb/!svn/ver/3034/RemoteControl/src/com/foxconn/remote/control/utils/ResultCodes.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sed-tb/!svn/ver/3152/RemoteControl/src/com/foxconn/remote/control/utils/Constants.java
+END

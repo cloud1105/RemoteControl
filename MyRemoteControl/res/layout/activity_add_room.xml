@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddRoomActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_room_name"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:gravity="center"
+            android:text="@string/input_room_name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_room_name"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout  android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+          <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:gravity="center"
+            android:text="@string/input_img"
+            android:textSize="20sp" />
+          
+            <LinearLayout  android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dip"
+                            android:orientation="horizontal">
+                    <Button android:id="@+id/btn_take_photo"
+                            android:layout_height="match_parent"
+                            android:layout_width="wrap_content"
+                                android:layout_marginLeft="15dip"
+                            android:text="take a photo"/>
+                    <Button android:id="@+id/btn_pick_img"
+                            android:layout_height="match_parent"
+                            android:layout_width="wrap_content"
+                            android:text="pick a picture"/>
+        
+            </LinearLayout>
+            
+            <ImageView android:id="@+id/iv_room_icon"
+                               android:layout_height="match_parent"
+                               android:layout_width="wrap_content" 
+                               android:layout_gravity="center"
+                               android:gravity="center"
+                               android:contentDescription="TODO"/>
+        
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+    </RelativeLayout>
+    <LinearLayout  android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="30dip"
+                   android:orientation="vertical">
+
+             <Button
+                 android:id="@+id/btn_choose_ir"
+                 android:layout_width="117dp"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center"
+                 android:text="@string/next" />
+        
+    </LinearLayout>
+
+</LinearLayout>

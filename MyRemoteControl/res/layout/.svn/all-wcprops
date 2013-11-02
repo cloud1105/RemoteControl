@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sed-tb/!svn/ver/3090/RemoteControl/res/layout
+END
+machine_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sed-tb/!svn/ver/3090/RemoteControl/res/layout/machine_item.xml
+END
+activity_short_cut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sed-tb/!svn/ver/2993/RemoteControl/res/layout/activity_short_cut.xml
+END
+activity_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sed-tb/!svn/ver/3155/RemoteControl/res/layout/activity_list.xml
+END
+activity_machine_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sed-tb/!svn/ver/3152/RemoteControl/res/layout/activity_machine_add.xml
+END
+activity_machine_icon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sed-tb/!svn/ver/3132/RemoteControl/res/layout/activity_machine_icon.xml
+END
+list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sed-tb/!svn/ver/3009/RemoteControl/res/layout/list_item.xml
+END
+type_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sed-tb/!svn/ver/3130/RemoteControl/res/layout/type_list_item.xml
+END
+activity_add_ir.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sed-tb/!svn/ver/2993/RemoteControl/res/layout/activity_add_ir.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sed-tb/!svn/ver/2904/RemoteControl/res/layout/activity_main.xml
+END
+activity_grid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sed-tb/!svn/ver/2940/RemoteControl/res/layout/activity_grid.xml
+END
+tab_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sed-tb/!svn/ver/3018/RemoteControl/res/layout/tab_layout.xml
+END
+zxing_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sed-tb/!svn/ver/3187/RemoteControl/res/layout/zxing_main.xml
+END
+tablayout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sed-tb/!svn/ver/2940/RemoteControl/res/layout/tablayout.xml
+END
+table_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sed-tb/!svn/ver/3018/RemoteControl/res/layout/table_item.xml
+END
+activity_connect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sed-tb/!svn/ver/3034/RemoteControl/res/layout/activity_connect.xml
+END
+wifi_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sed-tb/!svn/ver/2501/RemoteControl/res/layout/wifi_list_item.xml
+END
+activity_delete_ir.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sed-tb/!svn/ver/3046/RemoteControl/res/layout/activity_delete_ir.xml
+END
+device_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sed-tb/!svn/ver/2978/RemoteControl/res/layout/device_list_item.xml
+END
+activity_start.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sed-tb/!svn/ver/2940/RemoteControl/res/layout/activity_start.xml
+END
+alert_key_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sed-tb/!svn/ver/2958/RemoteControl/res/layout/alert_key_layout.xml
+END
+frame_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sed-tb/!svn/ver/2773/RemoteControl/res/layout/frame_menu.xml
+END
+activity_machine_type.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sed-tb/!svn/ver/3130/RemoteControl/res/layout/activity_machine_type.xml
+END
+activity_nfc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sed-tb/!svn/ver/2501/RemoteControl/res/layout/activity_nfc.xml
+END
+activity_device_connect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sed-tb/!svn/ver/2947/RemoteControl/res/layout/activity_device_connect.xml
+END
+activity_edit_ir.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sed-tb/!svn/ver/3009/RemoteControl/res/layout/activity_edit_ir.xml
+END
+activity_room_edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sed-tb/!svn/ver/2940/RemoteControl/res/layout/activity_room_edit.xml
+END
+fragment_room.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sed-tb/!svn/ver/2715/RemoteControl/res/layout/fragment_room.xml
+END
+activity_pair_complete.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sed-tb/!svn/ver/2904/RemoteControl/res/layout/activity_pair_complete.xml
+END
+activity_bar_code_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sed-tb/!svn/ver/3120/RemoteControl/res/layout/activity_bar_code_in.xml
+END
+activity_add_room.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sed-tb/!svn/ver/2904/RemoteControl/res/layout/activity_add_room.xml
+END
+item_grid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sed-tb/!svn/ver/2940/RemoteControl/res/layout/item_grid.xml
+END
+activity_home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sed-tb/!svn/ver/3018/RemoteControl/res/layout/activity_home.xml
+END
+add_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sed-tb/!svn/ver/2940/RemoteControl/res/layout/add_item.xml
+END
+activity_device_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sed-tb/!svn/ver/2978/RemoteControl/res/layout/activity_device_list.xml
+END
+tab_child.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sed-tb/!svn/ver/3018/RemoteControl/res/layout/tab_child.xml
+END
+delete_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sed-tb/!svn/ver/3046/RemoteControl/res/layout/delete_list_item.xml
+END
+confirm_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sed-tb/!svn/ver/3009/RemoteControl/res/layout/confirm_dialog.xml
+END
+input_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sed-tb/!svn/ver/3130/RemoteControl/res/layout/input_dialog.xml
+END
+drag_grid_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sed-tb/!svn/ver/2940/RemoteControl/res/layout/drag_grid_layout.xml
+END
